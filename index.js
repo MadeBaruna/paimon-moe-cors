@@ -28,8 +28,8 @@ fastify.route({
 
 const start = async () => {
   try {
-    await fastify.listen(8000);
-    console.log('paimon.moe cors started at port 8000');
+    const address = await fastify.listen(8000, '0.0.0.0');
+    console.log(`paimon.moe cors started at ${address}`);
   } catch (err) {
     fastify.log.error(err);
     process.exit(1);
