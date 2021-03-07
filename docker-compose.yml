@@ -1,6 +1,6 @@
 services:
   cors:
-    image: paimon-moe-cors:latest
+    image: ghcr.io/madebaruna/paimon-moe-cors:latest
     restart: always
     ports:
       - "21000:8000"
