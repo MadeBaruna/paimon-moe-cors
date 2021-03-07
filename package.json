@@ -1,0 +1,10 @@
+{
+	"dependencies": {
+		"fastify": "^3.13.0",
+		"fastify-cors": "^5.2.0",
+		"node-fetch": "^2.6.1"
+	},
+	"scripts": {
+		"start": "node index.js"
+	}
+}
