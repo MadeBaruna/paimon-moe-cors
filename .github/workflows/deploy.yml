@@ -28,8 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: 
-          - paimon-moe-cors:${{ steps.vars.outputs.sha_short }}
-          - paimon-moe-cors:latest
-
-  
+        tags: paimon-moe-cors:${{ steps.vars.outputs.sha_short }},paimon-moe-cors:latest
