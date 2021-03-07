@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: ghcr.io/paimon-moe-cors:${{ steps.vars.outputs.sha_short }},ghcr.io/paimon-moe-cors:latest
+        tags: ghcr.io/MadeBaruna/paimon-moe-cors:${{ steps.vars.outputs.sha_short }},ghcr.io/MadeBaruna/paimon-moe-cors:latest
