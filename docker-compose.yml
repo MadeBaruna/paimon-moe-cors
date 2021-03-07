@@ -1,6 +1,6 @@
 services:
   cors:
-    image: paimon-moe-cors
+    image: paimon-moe-cors:latest
     restart: always
     ports:
       - "21000:8000"
